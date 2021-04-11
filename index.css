@@ -1,0 +1,58 @@
+h1{
+    font-size: 70px;
+    text-align: center;
+}
+#container{
+    position: relative;
+    background-color: grey;
+    height: 10vw;
+    width: 30vw;
+    padding: 38px;
+    margin: auto;
+    margin-top: 10vh;
+}
+#box{
+    position: absolute;
+    display: flex;
+    background-color: black;
+    height: 10vw;
+    width: 30vw;
+    border-radius:0.8rem;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (min-width:1000px){
+#time{
+    position: absolute;
+    color: white;
+    font-size: 5rem;
+    padding:25px;
+    }
+    h1{
+        font-size: 70px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:1000px) and (min-width:500px){
+    #time{
+        position: absolute;
+        color: white;
+        font-size: 1.5rem;
+        padding:15px;
+        }
+        h1{
+            font-size: 50px;
+            text-align: center;
+        }
+    }
+@media only screen and (max-width:500px){
+        #time{
+            color: white;
+            font-size: 1rem;
+            padding: 10px;
+            }
+            h1{
+                font-size: 40px;
+                text-align: center;
+            }
+        }
